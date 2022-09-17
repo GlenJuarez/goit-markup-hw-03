@@ -1,0 +1,229 @@
+/** @format */
+
+body {
+  font-size: 14px;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  background-color: var(--body background-color);
+  color: var(--text-color);
+  line-height: 1.5em;
+}
+
+.initial {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  text-align: center;
+  background-color: #2f303a;
+  color: #ffffff;
+  padding-top: 200px;
+  padding-bottom: 280px;
+  padding-left: 482px;
+  padding-right: 452px;
+  font-size: 30px;
+  line-height: 1.5em;
+}
+.botones {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.click {
+  background-color: #2196f3;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 4px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.botones:hover {
+  color: green;
+}
+
+a:hover {
+  color: yellow;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+
+.two {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+}
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+.initial > h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
+
+.principal {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+button.principal {
+  object-position: center;
+}
+
+.thedescriptions {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #757575;
+}
+
+.link {
+  display: flex;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.link1 {
+  color: #2196f3;
+}
+
+.link2 {
+  color: #212121;
+}
+
+.link3 {
+  color: #757575;
+}
+
+.category {
+  display: inline-block;
+}
+
+.menu {
+  text-align: center;
+  word-spacing: 8px;
+  display: flex;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+footer {
+  background-color: #2f303a;
+  padding-left: 215px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+header {
+  border-color: #ececec;
+  border-width: 1px;
+  border-style: solid;
+  text-decoration: none;
+  display: flex;
+}
+
+.title-text {
+  text-decoration: none;
+  color: #2196f3;
+  padding-left: 215px;
+}
+
+.foot {
+  text-decoration: none;
+  color: #2196f3;
+  width: 1600px;
+  height: 252px;
+}
+
+nav > ul {
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+  margin: 10px;
+}
+
+.contact {
+  display: flex;
+  position: absolute;
+  left: 900px;
+}
+
+.nav {
+  display: flex;
+}
+
+.direction {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 24px;
+}
+
+.date {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #757575;
+  line-height: 24px;
+}
+
+.sections {
+  flex-wrap: wrap;
+  display: flex;
+  margin-left: 215px;
+  margin-right: 215px;
+  margin-bottom: 82px;
+}
+
+.information {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: 215px;
+  margin-right: 215px;
+  display: inline-flex;
+}
+
+.information1{
+  margin-left: 215px;
+  margin-right: 211px;
+  display: inline-flex;
+  
+}
+
+.image{
+  
+  padding: 30px;
+}
+
+.coachs{
+  margin-left: 208px;
+  margin-right: 215px;
+  display: inline-flex;
+  
+}
+
+.description {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  display: inline-flex;
+}
