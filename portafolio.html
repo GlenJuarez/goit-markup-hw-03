@@ -9,101 +9,133 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet">
-  <title> Portafolio </title>
+  <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css" />
+
+  <title> portafolio </title>
 </head>
 
 <body>
   <header>
-    <nav class="nav">
-      <h1><a href="index.html" class="title-text">WebStudio</a></h1>
-      <ul>
-        <li><a class="link link1" href="estudio.html">Estudio</a></li>
-        <li><a class="link link2" href="portafolio.html">Portafolio</a></li>
-        <li><a class="link link2" href="contactos.html">Contactos</a></li>
-      </ul>
-    </nav>
+    <div class="container">
+      <nav>
+        <a class="title-text" href="index.html">WebStudio</a>
+        <ul class="links">
+          <li><a class="link link1" href="estudio.html">Estudio</a></li>
+          <li><a class="link link2" href="portafolio.html">Portafolio</a></li>
+          <li><a class="link link2" href="contactos.html">Contactos</a></li>
+        </ul>
+      </nav>
 
-    <ul class="contact">
-      <li><a class="link link1" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-      <li><a class="link link3" href="tel:+525555296000">+52 55 5529 6000</a></li>
-    </ul>
+      <ul class="contact">
+        <li><a class="contacts link1" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a class="contacts link3" href="tel:+525555296000">+52 55 5529 6000</a></li>
+      </ul>
+    </div>
   </header>
 
+
+
   <main>
-    <section>
-      <ul class="menu">
-        <li><button type="button" class="botones" /> Todo </button></li>
-        <li><button type="button" class="botones" /> Sitios-web</button></li>
-        <li><button type="button" class="botones" /> Aplicaciones</button></li>
-        <li><button type="button" class="botones" /> Diseño</button></li>
-        <li><button type="button" class="botones" /> Marketing</button></li>
-      </ul>
-    </section>
+    <section class="portfolio">
+      <div class="container">
+        <ul class="menu">
+          <li><button type="button" class="botones" /> Todo </button></li>
+          <li><button type="button" class="botones" /> Sitios-web</button></li>
+          <li><button type="button" class="botones" /> Aplicaciones</button></li>
+          <li><button type="button" class="botones" /> Diseño</button></li>
+          <li><button type="button" class="botones" /> Marketing</button></li>
+        </ul>
 
-    <section>
-      <ul class="sections">
-        <li>
-          <img class="imag" src="images/I-1.jpg" alt="tecno" width="370px" />
-          <h4 class="title">Tecnoduck</h4>
-          <p class="thedescriptions">Sitio-web</p>
-        </li>
 
-        <li>
-          <img class="imag" src="images/I-2.jpg" alt="basket" width="370px" />
-          <h4 class="title">Póster de Nueva Orleans vs </h4>
-          <h4 class="title">Estrella Dorada</h4>
-        </li>
-        <li>
-          <img class="imag" src="images/I-3.jpg" alt="seafood" width="370px" />
-          <h4 class="title">Restaurante Seafood</h4>
-          <p class="thedescriptions">Aplicaciones</p>
-        </li>
-        <li>
-          <img class="imag" src="images/I-4.jpg" alt="marketing" width="370px" />
-          <h4 class="title">Proyecto Prime</h4>
-          <p class="thedescriptions">Marketing</p>
-        </li>
-        <li>
-          <img class="imag" src="images/I-5.jpg" alt="box" width="370px" />
-          <h4 class="title">Proyecto Cajas</h4>
-          <p class="thedescriptions">Aplicaciones</p>
-        </li>
-        <li>
-          <img class="imag" src="images/I-6.jpg" alt="siteweb" width="370px" />
-          <h4 class="title">La inspiración no tiene límites</h4>
-          <p class="thedescriptions">Sitio-web</p>
-        </li>
-        <li>
-          <img class="imag" src="images/I-7.jpg" alt="desing" width="370px" />
-          <h4 class="title">Edición Limitada</h4>
-          <p class="thedescriptions">Diseño</p>
-        </li>
-        <li>
-          <img class="imag" src="images/I-8.jpg" alt="proyectlab" width="370px" />
-          <h4 class="title">Proyecto LAB</h4>
-          <p class="thedescriptions">Marketing</p>
-        </li>
-        <li>
-          <img class="imag" src="images/I-9.jpg" alt="apps" width="370px" />
-          <h4 class="title">Negocio en Crecimiento</h4>
-          <p class="thedescriptions">Aplicaciones</p>
-        </li>
 
-      </ul>
+        <ul class="section">
+          <li class="sections">
+
+            <img class="imag" src="images/I-1.jpg" alt="tecno" />
+            <h4 class="title-s">Tecnoduck</h4>
+            <p class="thedescriptions">Sitio-web</p>
+
+          </li>
+
+          <li class="sections">
+
+            <img class="imag" src="images/I-2.jpg" alt="basket" />
+            <h4 class="title-s">Póster de Nueva Orleans vs Estrella Dorada </h4>
+            <p class="thedescriptions">Diseño</p>
+
+          </li>
+          <li class="sections">
+
+            <img class="imag" src="images/I-3.jpg" alt="seafood" />
+            <h4 class="title-s">Restaurante Seafood</h4>
+            <p class="thedescriptions">Aplicaciones</p>
+
+          </li>
+          <li class="sections">
+
+            <img class="imag" src="images/I-4.jpg" alt="marketing" />
+            <h4 class="title-s">Proyecto Prime</h4>
+            <p class="thedescriptions">Marketing</p>
+
+          </li>
+          <li class="sections">
+
+            <img class="imag" src="images/I-5.jpg" alt="box" />
+            <h4 class="title-s">Proyecto Cajas</h4>
+            <p class="thedescriptions">Aplicaciones</p>
+
+          </li>
+          <li class="sections">
+
+            <img class="imag" src="images/I-6.jpg" alt="siteweb" />
+            <h4 class="title-s">La inspiración no tiene límites</h4>
+            <p class="thedescriptions">Sitio-web</p>
+
+          </li>
+          <li class="sections">
+
+            <img class="imag" src="images/I-7.jpg" alt="desing" />
+            <h4 class="title-s">Edición Limitada</h4>
+            <p class="thedescriptions">Diseño</p>
+
+          </li>
+          <li class="sections">
+
+            <img class="imag" src="images/I-8.jpg" alt="proyectlab" />
+            <h4 class="title-s">Proyecto LAB</h4>
+            <p class="thedescriptions">Marketing</p>
+
+          </li>
+          <li class="sections">
+
+            <img class="imag" src="images/I-9.jpg" alt="apps" />
+            <h4 class="title-s">Negocio en Crecimiento</h4>
+            <p class="thedescriptions">Aplicaciones</p>
+
+          </li>
+
+        </ul>
+
+      </div>
     </section>
 
   </main>
 
+
   <footer>
-    <p>
-    <h1><a href="index.html" class="foot">WebStudio</a></h1>
-    </p>
-    <p class="direction">Calz. Ticomán 500, Ciudad de <br>
-      México, CDMX, México</p>
-    <p><a href="mailto:info@example.com" class="date">info@example.com</a></p>
-    <p><a href="tel:+525555296000" class="date">+52 55 5529 6000</a></p>
+    <div class="container">
+      <section class="directions">
+        <h1><a class="title-text" href="index.html">WebStudio</a></h1>
+        <address class="direction">Calz. Ticomán 500, Ciudad de México, CDMX, México</address>
+        <address class="date">
+          <a href="mailto:info@example.com" class="date1">info@example.com</a>
+          <a href="tel:+525555296000" class="date1">+52 55 5529 6000</a>
+        </address>
+      </section>
+    </div>
   </footer>
 
+  </div>
 </body>
 
 </html>
