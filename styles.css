@@ -156,12 +156,22 @@ li {
   margin-right: 30px;
 }
 
-h4 {
+h3 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0.03em;
   font-size: 14px;
+}
+
+h4{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #757575;
+  line-height: 24px;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  width: 270px;
 }
 
 .thedescriptions {
@@ -170,6 +180,9 @@ h4 {
   color: #757575;
   line-height: 24px;
   font-size: 14px;
+  
+ 
+ 
 }
 
 .services {
@@ -386,4 +399,5 @@ a:hover {
   margin-bottom: 4px;
   margin-left: 24px;
   margin-right: 24px;
+  color: #212121;
 }
